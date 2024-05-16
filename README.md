@@ -2,6 +2,8 @@
 
 This application supports `GET`, `POST`, `PUT`, and `DELETE` requests for a database that contains lists of players, their countries of origin, and the World Chess Championships in which they have participated.
 
+[**Backend + database config**](https://github.com/valvaraad/term4-java)
+
 ## Technologies Used
 - **OpenJDK**: Version 21
 - **Spring Boot**: Version 3.2.3
