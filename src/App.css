@@ -1,0 +1,44 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}
+
+.container {
+    overflow-y: auto;
+}
+
+/* Add to your CSS file */
+.table-hover tbody tr:hover {
+    background-color: #f5f5f5;  /* Light grey background on hover */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);  /* Zebra striping for better readability */
+}
+
+.action-icon {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btn-outline-dark-info {
+    color: #343a40;  /* Dark text color for default state */
+    border-color: #343a40;  /* Dark border color */
+}
+.btn-outline-dark-info:hover,
+.btn-outline-dark-info:focus {
+    color: #17a2b8;  /* Info color text when hovered or focused */
+    background-color: #f8f9fa;  /* A very light background on hover/focus */
+    border-color: #17a2b8;  /* Info color border when hovered or focused */
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
